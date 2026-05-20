@@ -1,0 +1,45 @@
+# Виртуальное окружение
+venv/
+.venv/
+env/
+.env/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# База данных
+db.sqlite3
+*.sqlite3
+
+# Загруженные файлы (видео, аватарки)
+media/
+staticfiles/
+
+# Переменные окружения
+.env
+.env.local
+
+# Логи
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Django
+*.pot
+*.pyc
+local_settings.py
+
+# Vercel / Render
+.vercel/
